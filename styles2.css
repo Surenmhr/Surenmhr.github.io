@@ -1,0 +1,80 @@
+
+body {
+    font-family: Calibri;
+    line-height: 1.6;
+    background-color: #ececec;
+    margin: 0;
+    padding: 0;
+}
+
+
+.Home {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    text-decoration: none;
+    color: white;
+    background-color: #338be9;
+    padding: 3px 3px;
+    border-radius: 5px;
+}
+
+.Home:hover {
+    background-color: #87bffb;
+}
+
+
+header {
+    text-align: center;
+    margin-top: 50;
+}
+
+h1 {
+    font-size: 35px;
+    border-bottom: 2px solid #070707;
+    margin-bottom: 20px;
+}
+
+p {
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.first-image{
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+figure {
+    text-align: center;
+    margin: 60 auto;
+}
+
+.figure-image {
+    max-width: 80%;
+    border: 6px solid #111111;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: bold;
+}
+
+
+progress {
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+}
+
+
+section {
+    text-align: center;
+    margin: 30px auto;
+}
