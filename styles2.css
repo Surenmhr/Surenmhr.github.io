@@ -26,7 +26,7 @@ body {
 
 header {
     text-align: center;
-    margin-top: 50;
+    margin-top: 50px;
 }
 
 h1 {
@@ -39,7 +39,7 @@ p {
     background-color: #e0f7fa;
     padding: 10px;
     border-radius: 10px;
-    margin: 20px auto;
+    margin: 20px;
     width: 80%;
 }
 
@@ -53,7 +53,7 @@ p {
 
 figure {
     text-align: center;
-    margin: 60 auto;
+    margin:60px;
 }
 
 .figure-image {
@@ -63,9 +63,8 @@ figure {
 
 figcaption {
     margin-top: 10px;
-    font-style: bold;
+    font-style: italics;
 }
-
 
 progress {
     width: 80%;
