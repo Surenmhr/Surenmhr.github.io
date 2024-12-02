@@ -30,6 +30,31 @@ body {
     transition: background-color 0.3s;
 }
 
+#nav a:hover {
+    background-color: #575757;
+    color: red;  
+}
+
+#vertical-nav {
+    width: 20%;
+    float: left;  
+    background-color: #f2c8c8;
+    padding: 1em 0;
+    box-sizing: border-box;
+    height: 100vh;  
+}
+
+#vertical-nav a {
+    display: block;
+    color: rgb(27, 1, 1);
+    text-decoration: none;
+    padding: 1em;
+    transition: background-color 0.3s;
+}
+
+#vertical-nav a:hover {
+    background-color: #575757;
+}
 .row {  
     display: flex;
     flex-wrap: wrap;
@@ -57,7 +82,24 @@ body {
     margin-top: 1em;
     border: 1px solid #ddd;
     border-radius: 25px;
+    
+}
 
+#section1 {
+    width: 80%;
+    float: left;  
+    padding: 2em;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+article {
+    float:left;
+    padding: 20px;
+    background-color: #edd6d6;
+    flex: 1;
+    width: auto;
+    height: 300px;
 }
 
 footer {
