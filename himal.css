@@ -1,0 +1,171 @@
+/* General Styles */
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#section1 {
+    background: rgba(93, 90, 90, 0.6);
+    padding: 2em;
+    margin-top: 1em;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+}
+
+/* Header */
+.main-header {
+    background: #2c3e50;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #1abc9c;
+}
+
+/* Hero Section */
+.hero {
+    background: url('pic/yak.jpg') no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.hero1 {
+    background: url('pic/patan.jpg') no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 2.0rem;
+}
+
+.hero p {
+    margin: 20px 0;
+}
+
+/* Introduction Section */
+.intro {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Activities Section */
+.activities {
+    padding: 40px 0;
+}
+
+.activities h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.activity {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.activity img {
+    height: 200px; /* Set a uniform height */
+    width: 100%; /* Ensure images fit the container width */
+    object-fit: cover; /* Crop or scale the image to maintain aspect ratio */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    display: block; /* Ensures no gaps or extra padding */
+    margin: 0 auto; /* Center align if necessary */
+}
+
+.activity h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Video Section */
+.video {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+.video iframe {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 40px 0;
+}
+
+.gallery h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.gallery-images img {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.gallery-images img:hover {
+    transform: scale(2.05);
+}
+
+/* Footer */
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .activity {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery-images img {
+        width: 100%;
+    }
+}

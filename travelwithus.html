@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel With Us - Explore Nepal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="new.css">
+    <link rel="icon" href="pic/explorenepal.png" type="image/x-icon">
+</head>
+<body>
+    <div class="site">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a href="front.html" class="navbar-brand">
+                   <img id="logo" src="pic/explorenepal.png" alt="Explore Nepal" height="40">
+                </a>
+                <span class="ms-2"><a style="color:white"><b>Explore Nepal</b></a></span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="front.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="travelwithus.html">Travel With Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+   
+          <!-- Slideshow Section -->
+    <section class="container mt-4 no gap">
+            <div id="travelSlideshow" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="pic/Everestf.jpg" class="d-block w-100" alt="Mount Everest">
+                        <div class="carousel-caption">
+                            <h5>Discover the Majesty of Mount Everest</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pic/kaal.jpg" class="d-block w-100" alt="Kathmandu dubar square">
+                        <div class="carousel-caption">
+                            <h5>Explore the Historic Kathmandu Valley</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pic/pokhara.jpg" class="d-block w-100" alt="Pokhara">
+                        <div class="carousel-caption">
+                            <h5>Relax by the Tranquil Lakes of Pokhara</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#travelSlideshow" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#travelSlideshow" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Popular Itinerary Section -->
+        <section class="container mt-5">
+            <h2 class="text-center mb-4">Popular Itineraries</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="pic/annapurna.jpg" class="card-img-top" alt="Annapurna Trek">
+                        <div class="card-body">
+                            <h5 class="card-title">Annapurna Circuit</h5>
+                            <p class="card-text">Experience breathtaking views of the Annapurna range. Duration: 15 days.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="pic/langtang.jpg" class="card-img-top" alt="Langtang Trek">
+                        <div class="card-body">
+                            <h5 class="card-title">Langtang Valley</h5>
+                            <p class="card-text">A serene trek through lush valleys and glaciers. Duration: 7 days.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="pic/chitwan.jpg" class="card-img-top" alt="Chitwan Safari">
+                        <div class="card-body">
+                            <h5 class="card-title">Chitwan Safari</h5>
+                            <p class="card-text">Spot rare wildlife in Chitwan National Park. Duration: 3 days.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Custom Package Section -->
+        <section class="container mt-5">
+            <h2 class="text-center mb-4">Create Your Own Package</h2>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="col-md-6">
+                    <label for="destinations" class="form-label">Preferred Destinations</label>
+                    <input type="text" class="form-control" id="destinations" placeholder="e.g., Kathmandu, Pokhara">
+                </div>
+                <div class="col-md-6">
+                    <label for="duration" class="form-label">Duration</label>
+                    <input type="text" class="form-control" id="duration" placeholder="e.g., 7 days">
+                </div>
+                <div class="col-12">
+                    <label for="additional" class="form-label">Additional Information</label>
+                    <textarea class="form-control" id="additional" rows="3" placeholder="Any specific requests or preferences"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </div>
+            </form>
+        </section>
+   
+
+    <footer>
+        <div class="container d-flex align-items-left mt-5">
+            <p>&copy; 2024 Explore Nepal. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#"><img src="pic/facebook.png" alt="Facebook">Facebook</a>
+                <a href="#"><img src="pic/x.png" alt="X">X</a>
+                <a href="#"><img src="pic/insta.png" alt="Instagram">Instagram</a>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
