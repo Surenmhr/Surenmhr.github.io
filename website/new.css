@@ -1,7 +1,7 @@
 body {
     font-family: 'Helvetica Neue', sans-serif;
     line-height: 1.6;
-    min-height:calc(100vh-227.6px);
+    min-height:calc(100vh-227px);
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -14,7 +14,7 @@ body {
 }
 
 .navbar-brand img {
-    max-height: auto;
+    max-height:auto;
     border-radius: 50%; 
 }
 
@@ -260,7 +260,7 @@ footer {
      }
     
      .partners-logos img {
-            margin: 5px; /
+            margin: 5px; 
      }
      .carousel-inner img {
         max-height: 300px;
