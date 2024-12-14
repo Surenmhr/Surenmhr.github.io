@@ -128,7 +128,9 @@ body {
     border: 1px solid #ddd;
     border-radius: 25px;
 }
-
+iframe {
+        border: none; 
+    }
 /* for about us */
 .background-section {
     background-image: url('pic/bhaktapur.jpg');
