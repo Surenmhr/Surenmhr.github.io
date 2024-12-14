@@ -102,12 +102,12 @@
 
 
 .activity img {
-    height: 200px; /* Set a uniform height */
-    width: 100%; /* Ensure images fit the container width */
-    object-fit: cover; /* Crop or scale the image to maintain aspect ratio */
-    border-radius: 5px; /* Optional: Adds rounded corners */
-    display: block; /* Ensures no gaps or extra padding */
-    margin: 0 auto; /* Center align if necessary */
+    height: 200px; 
+    width: 100%; 
+    object-fit: cover; 
+    border-radius: 5px; 
+    display: block; 
+    margin: 0 auto; 
 }
 
 .activity h3 {
