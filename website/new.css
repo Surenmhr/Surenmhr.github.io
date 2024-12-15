@@ -143,6 +143,17 @@ iframe {
     justify-content: center;
     text-align: center;
 }
+.background-section1 {
+    background-image: url('pic/Annapurna.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 .background-section h1 {
     font-size: 3rem;
     font-weight: bold;
