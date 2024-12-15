@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Nepal | Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="himal.css">
+    <link rel="icon" href="pic/explorenepal.png" type="image/x-icon">
+</head>
+<body>
+    <div class="site">
+         <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a href="pic/explorenepal.png" class="navbar-brand">
+                    <img id="logo" src="pic/explorenepal.png" alt="Explore Nepal" height="40"></a>
+                    <span class="ms-2"> <a style ="color:white"><b>Explore Nepal</b></a></span>                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="front.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="travelwithus.html">Travel With Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+      <div class="background-section1">
+        <h1>The journey to Annapurna </h1>
+    </div>
+    <main class="container mt-4">
+        <h1>Annapurna Circuit Trek: 15-Day Itinerary</h1>
+        <p>The Annapurna Circuit Trek is a stunning journey through Nepal's majestic Himalayan landscapes, rich cultural villages, and challenging mountain passes. Below is the detailed day-by-day itinerary:</p>
+        <div class="row align-items-center my-5">
+            <div class="col-md-6">
+                <p>Day 1: Arrival in Kathmandu</p>
+                <p>Welcome to Nepal! Upon arrival, you’ll be greeted at the airport and transferred to your hotel in Kathmandu. Rest or explore the bustling streets of Thamel.</p>
+                <p>Day 2: Drive to Besi Sahar (6-7 hours)</p>
+                <p>Embark on a scenic drive to Besi Sahar, the starting point of the trek. Enjoy views of lush valleys and rivers along the way.</p>
+                <p>Day 3: Trek to Bahundanda (1,310m, 5-6 hours)</p>
+                <p>Begin your trek through terraced fields and small villages, reaching the charming hilltop village of Bahundanda.</p>
+                <p>Day 4: Trek to Chamje (1,410m, 5-6 hours)</p>
+                <p>Climb through rugged terrain and beautiful waterfalls, entering the Manang region and arriving at Dharapani.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="pic/Annapurnaone.jpg" class="img-fluid rounded custom-img" alt="suspension bridge">
+            </div>
+        </div>
+        <div class="row align-items-center my-5">
+            <div class="col-md-6">
+                <p>Day 5: Trek to Dharapani (1,960m, 6-7 hours)</p>
+                <p>Climb through rugged terrain and beautiful waterfalls, entering the Manang region and arriving at Dharapani.</p>
+                <p>Day 6: Trek to Chame (2,710m, 5-6 hours)</p>
+                <p>Pass through pine forests and quaint villages, with breathtaking views of Annapurna II and Lamjung Himal.</p>
+                <p>Day 7: Trek to Pisang (3,300m, 5-6 hours)</p>
+                <p>The trail offers stunning views of the mountains as you ascend to the picturesque village of Pisang.</p>
+                <p>Day 8: Trek to Manang (3,540m, 5-6 hours)</p>
+                <p>Cross alpine meadows and visit local monasteries. Spend the night in Manang, a vibrant cultural hub.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="pic/Annapurna1.jpg" class="img-fluid rounded custom-img" alt="stupa">
+            </div>
+        </div>
+        <div class="row align-items-center my-5">
+            <div class="col-md-6">                
+                <p>Day 9: Acclimatization Day in Manang</p>
+                <p>Rest and explore Manang to adjust to the altitude. Optional hikes to Gangapurna Lake or the Ice Lake.</p>
+                <p>Day 10: Trek to Yak Kharka (4,018m, 4-5 hours)</p>
+                <p>Gradual ascent through juniper forests and alpine pastures. Look out for yaks and blue sheep along the way.</p>
+                <p>Day 11: Trek to Thorong Phedi (4,450m, 4-5 hours)</p>
+                <p>Prepare for the high pass crossing as you trek to Thorong Phedi, the base camp for Thorong La Pass.</p>
+                <p>Day 12: Cross Thorong La Pass (5,416m) and Trek to Muktinath (3,800m, 7-8 hours)</p>
+                <p>The most challenging day of the trek! Cross the iconic Thorong La Pass, then descend to the holy temple of Muktinath.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="pic/Annapurna3.jpg" class="img-fluid rounded custom-img" alt="mountain">
+            </div>
+        </div>
+        <div class="row align-items-center my-5">
+            <div class="col-md-6">
+                <p>Day 13: Trek to Jomsom (2,720m, 5-6 hours)</p>
+                <p>Descend through the Kali Gandaki Valley to Jomsom, known for its unique landscapes and strong winds.</p>
+                <p>Day 14: Fly to Pokhara</p>
+                <p>Take a short, scenic flight to Pokhara. Enjoy lakeside relaxation and optional sightseeing in the city.</p>
+                <p>Day 15: Drive/Fly to Kathmandu</p>
+                <p>Return to Kathmandu, where you can enjoy your final day exploring the city or shopping for souvenirs.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="pic/Annapurna2.jpg" class="img-fluid rounded custom-img" alt="mountain">
+            </div>
+        </div>      
+    </main>
+</div>  
+    <footer>
+        <div class="container d-flex align-items-left">
+            <p>&copy; 2024 Explore Nepal. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#"><img src="pic/facebook.png" alt="Facebook">Facebook</a>
+                <a href="#"><img src="pic/x.png" alt="X">X</a>
+                <a href="#"><img src="pic/insta.png"  alt="Instagram">Instagram</a>
+            </div>
+        <div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
