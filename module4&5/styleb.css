@@ -1,0 +1,49 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    
+  }
+  
+.navbar img {
+    max-height: none;
+    border-radius: 50%; 
+}
+  
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {
+    height: 600px;
+      background-image: url('pic/bhaktapur.jpg');
+  }       
+  .text{
+    color:rgb(212, 191, 191);
+  }
+ 
+  .sidenav {
+    padding-top: 20px;
+    background-color: #f0d8d8;
+    height: 100%;
+    text-align: left;
+    font-size: 2rem;
+  }
+  #section1 {
+    background: rgba(93, 90, 90, 0.6);
+    padding: 2em;
+    margin-top: 1em;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+}
+
+  footer {
+    background-color: #0d100e;
+    color: white;
+    padding: 15px;
+  }
+
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+  }
+ 
